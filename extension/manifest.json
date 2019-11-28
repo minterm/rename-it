@@ -1,0 +1,17 @@
+{
+    "author": "Micah Cliffe",
+    "manifest_version": 2,
+    "version": "0.0.1.0",
+    "name": "Rename It", 
+    "description": "Rename the current tab.",
+    "browser_action": {
+        "default_icon": "icon-128.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+     ],
+    "icons": { "16":  "icon-16.png",
+               "48":  "icon-48.png",
+               "128": "icon-128.png"}
+}
